@@ -1,4 +1,8 @@
 
+.container .row{
+    padding: 10px 0px;
+}
+
 /* CHANGE EVERY COL TO BLUE COLOR */
 [class*="col-"]{
     border: 1px solid white;
@@ -7,10 +11,18 @@
     /* DEBUG */
     height: 50px;
 }
-[class*="col-"]>*{
+[class*="col-"] > span{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+}
+[class*="col-"] > .row{
+    padding: 0px 10px;
+}
+[class*="col-"] > .row [class*="col-"]{
+    height: 40px;
+    background-color: #00e165;
+    border: 1px solid #006cfa;
 }

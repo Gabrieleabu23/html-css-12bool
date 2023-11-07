@@ -12,6 +12,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+/* ATTRIBUTI FLEX UTILI */
+.align{
+    height: 100%;
+    align-items: center;
+}
+
 [class*="col-"]{
     flex: 0 0 auto;
 }
