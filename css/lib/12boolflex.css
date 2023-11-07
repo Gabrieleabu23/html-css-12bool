@@ -25,14 +25,24 @@
     height: 100%;
     align-items: center;
 }
-.align-self-left{
-    align-self: flex-start;
+.align-cont-between{
+    height: 100%;
+    align-content: space-between;
 }
-.align-self-center{
-    align-self: center;
+.justify-left{
+    justify-content: flex-start;
 }
-.align-self-right{
-    align-self: flex-end;
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-right{
+    justify-content: flex-end;
 }
 
 .v_between{
