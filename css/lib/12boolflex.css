@@ -13,9 +13,32 @@
     flex-wrap: wrap;
 }
 /* ATTRIBUTI FLEX UTILI */
+.column{
+    display: flex;
+    flex-direction: column;
+} 
+ .no-wrap{
+    height: 100%;
+    flex-wrap: nowrap;
+}
 .align{
     height: 100%;
     align-items: center;
+}
+.align-self-left{
+    align-self: flex-start;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-self-right{
+    align-self: flex-end;
+}
+
+.v_between{
+    display: flex;
+    height: 100px;
+    align-content:space-between;
 }
 
 [class*="col-"]{
